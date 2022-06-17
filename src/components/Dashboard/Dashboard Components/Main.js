@@ -1,5 +1,4 @@
-import React, {useEffect} from 'react';
-import scrollreveal from 'scrollreveal';
+import React from 'react';
 import Earnings from "./Earnings";
 import Navbar from "./Navbar";
 import Developers from "./Developers";
