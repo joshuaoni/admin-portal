@@ -38,11 +38,11 @@ const Dashboard = () => {
     );
   }, []);
 
-  // window.addEventListener('resize', function () {
-  //   if (window.matchMedia('(min-width:429px').matches) {
-  //     this.window.location.reload();
-  //   }
-  // })
+  window.addEventListener('resize', function () {
+    if (window.matchMedia('(min-width:429px').matches) {
+      this.window.location.reload();
+    }
+  })
 
     return (
       <div className='dash-body'>

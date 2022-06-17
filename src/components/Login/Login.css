@@ -114,5 +114,6 @@
 
     .login .cont {
         width: 80vw;
+        height: max-content;
     }
 }

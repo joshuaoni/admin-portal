@@ -456,6 +456,7 @@ h1, h5 {
 
 .active-users .active h5 {
     font-weight: 100;
+    padding-left: 1rem;
 }
 
 .active-users .active .country {
@@ -467,7 +468,6 @@ h1, h5 {
 
 .active-users .active .country .name {
     display: flex;
-    gap: 1rem;
     align-items: center;
 }
 

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Navbar from './Navbar';
 import Search from './Search';
-import People from '../../Dashboard/Dashboard Components/People';
+import People from './People';
 
 const List = () => {
     const people = [
@@ -30,7 +30,7 @@ const List = () => {
             stack: 'Product Design'
         },
         {
-            name: "Kay",
+            name: "Ola",
             status: 'Disabled',
             seen: '0.5 Hours',
             stack: 'C#'
