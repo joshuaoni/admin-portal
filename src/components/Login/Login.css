@@ -1,5 +1,5 @@
 .login {
-    height: 100vh;
+    min-height: 100vh;
     background: #d0d8db;
     display: flex;
     justify-content: center;
@@ -115,5 +115,13 @@
     .login .cont {
         width: 80vw;
         height: max-content;
+    }
+
+    .admin {
+        gap: 0rem;
+    }
+
+    .login h2 {
+        padding-right: 1rem;
     }
 }
