@@ -507,10 +507,18 @@ p {
 }
 
     @media screen and (min-width: 280px) and (max-width: 1080px) {
-    .dashboard {
-        grid-template-columns: 1fr;
-        height: max-content;
-      }
+        .avatar {
+            gap: 0;
+        }
+
+        .name span {
+            padding-left: 14px;
+        }
+
+        .dashboard {
+            grid-template-columns: 1fr;
+            height: max-content;
+        }
 
       .dash-body {
         height: max-content;

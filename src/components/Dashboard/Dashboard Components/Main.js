@@ -6,25 +6,7 @@ import TargetAudeince from "./TargetAudeince";
 import TopProjects from "./TopProjects";
 
 export default function Dashboard() {
-  // useEffect(() => {
-  //   const sr = scrollreveal({
-  //     origin: "bottom",
-  //     distance: "80px",
-  //     duration: 2000,
-  //     reset: false,
-  // });
-  //   sr.reveal(
-  //     `
-  //       .nav,
-  //       .row,
-  //       .row2
-  //   `,
-  //     {
-  //       opacity: 0,
-  //       interval: 100,
-  //     }
-  //   );
-  // }, []);
+  
   return (
     <div className="main">
       <Navbar />

@@ -115,6 +115,7 @@
     .login .cont {
         width: 80vw;
         height: max-content;
+        margin: 1rem 0;
     }
 
     .admin {

@@ -39,9 +39,9 @@ const Dashboard = () => {
   }, []);
 
   window.addEventListener('resize', function () {
-    // if (window.matchMedia('(min-width:429px').matches) {
-    // }
-    this.window.location.reload();
+    if (window.matchMedia('(min-width:429px').matches) {
+      this.window.location.reload();
+    }
   })
 
     return (
