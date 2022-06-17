@@ -230,7 +230,25 @@ label {
     }
 }
 
+@media screen and (max-width: 429px) {
+    #status {
+        margin-bottom: 0rem;
+    }
+    .search .filters div {
+        padding: 0;
+        letter-spacing: 0.07rem;
+        gap: 0;
+    }
 
+    .filters input {
+        margin-bottom: 0;
+    }
+
+    .search .filters div label {
+        padding: 0 5px 0 0;
+        letter-spacing: 0.07rem;
+    }
+}
 
 
 
